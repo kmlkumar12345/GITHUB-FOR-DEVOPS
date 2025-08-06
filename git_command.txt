@@ -1,0 +1,43 @@
+| Command                   | Purpose                                           |
+| ------------------------- | ------------------------------------------------- |
+| `git init`                | Create a new Git repository in the current folder |
+| `git clone <url>`         | Copy an existing repository from a URL            |
+| `git status`              | Show changed, staged, and untracked files         |
+| `git add <file>`          | Stage a file for commit                           |
+| `git add .`               | Stage **all** changes                             |
+| `git commit -m "message"` | Commit staged changes                             |
+| `git log`                 | Show commit history                               |
+| `git diff`                | Show changes not yet staged                       |
+| `git diff --staged`       | Show changes that are staged but not committed    |
+| `git push`                | Upload commits to a remote repository             |
+| `git pull`                | Fetch + merge changes from a remote repository    |
+| `git fetch`               | Fetch changes from remote but don’t merge yet     |
+| Command                  | Purpose                           |
+| ------------------------ | --------------------------------- |
+| `git branch`             | List branches                     |
+| `git branch <name>`      | Create a new branch               |
+| `git checkout <name>`    | Switch to a branch                |
+| `git checkout -b <name>` | Create and switch to a new branch |
+| `git merge <branch>`     | Merge another branch into current |
+| `git branch -d <name>`   | Delete a branch (safe)            |
+| `git branch -D <name>`   | Delete a branch (force)           || Command                       | Purpose                                  |
+| ----------------------------- | ---------------------------------------- |
+| `git remote -v`               | Show remote URLs                         |
+| `git remote add origin <url>` | Add a new remote                         |
+| `git remote remove <name>`    | Remove a remote                          |
+| `git push -u origin <branch>` | Push a branch to remote and set tracking |
+| `git pull origin <branch>`    | Pull specific branch from remote         |
+| Command                   | Purpose                                           |
+| ------------------------- | ------------------------------------------------- |
+| `git restore <file>`      | Discard changes in working directory              |
+| `git reset <file>`        | Unstage a file                                    |
+| `git reset --soft HEAD~1` | Undo last commit but keep changes staged          |
+| `git reset --hard HEAD~1` | Undo last commit and discard changes              |
+| `git revert <commit>`     | Create a new commit that undoes a specific commit |
+| Command                          | Purpose                 |
+| -------------------------------- | ----------------------- |
+| `git tag`                        | List tags               |
+| `git tag <name>`                 | Create a tag            |
+| `git tag -a <name> -m "message"` | Create an annotated tag |
+| `git push origin <tag>`          | Push a tag to remote    |
+
